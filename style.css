@@ -1,0 +1,74 @@
+@media (max-width: 960px) {
+  /* This CSS class applies for screens < 960px */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* This CSS class applies for screens < 720px */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* This CSS class applies for screens < 540px */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styling for the image */
+.card img {
+  width: 12.5%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Add styling for the headings */
+.card h1,
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+/* Add styling for the social media icons */
+.card ul li a i {
+  margin-right: 5px;
+}
+
+/* Add styling for the list */
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* Add styling for the footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
